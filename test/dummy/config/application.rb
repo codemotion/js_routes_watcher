@@ -3,7 +3,7 @@ require_relative 'boot'
 require 'rails/all'
 
 Bundler.require(*Rails.groups)
-require "js_routes_watcher2"
+require "js_routes_watcher"
 
 module Dummy
   class Application < Rails::Application
