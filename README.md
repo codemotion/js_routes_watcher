@@ -25,11 +25,6 @@ end
 guard: bundle exec guard
 ```
 
-Or install it yourself as:
-```bash
-$ gem install js_routes_watcher
-```
-
 ## Contributing
 You're free to contribute via pull requests.
 
