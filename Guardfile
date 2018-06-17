@@ -15,6 +15,6 @@
 #
 # and, you'll have to watch "config/Guardfile" instead of "Guardfile"
 
-guard 'rake', :task => 'router:js' do
+guard 'rake', :task => 'js_routes_watcher:generate' do
   watch(%r{^config/routes.rb})
 end
