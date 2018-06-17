@@ -19,7 +19,7 @@ guard 'rake', :task => 'js_routes_watcher:generate' do
   watch(%r{^config/routes.rb})
 end
 ```
-3. Be shure what you're using **webpacker** gem and starting it with (Foreman)[https://github.com/ddollar/foreman] or (Overmind)[https://github.com/DarthSim/overmind].
+3. Be shure what you're using **webpacker** gem and starting it with [Foreman](https://github.com/ddollar/foreman) or [Overmind](https://github.com/DarthSim/overmind).
 4. `Procfile` must have the following line to start `Guard` task in background:
 ```
 guard: bundle exec guard
