@@ -7,7 +7,7 @@ Then you'll be able to do this:
 const login_path = Routes.api_login_path()
 ```
 
-[js-routes](https://github.com/railsware/js-routes) gem give you the ability to export rails routes to js file. 
+[js-routes](https://github.com/railsware/js-routes) gem gives you the ability to export rails routes to standalone js-file. 
 
 But how to do this automatically? There's gem you're watching on comes to play.
 
