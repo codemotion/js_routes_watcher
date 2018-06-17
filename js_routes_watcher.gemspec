@@ -18,5 +18,6 @@ Gem::Specification.new do |s|
   s.add_dependency "rails", "~> 5.2.0"
   s.add_dependency "js-routes"
   s.add_dependency "guard"
+  s.add_dependency "webpacker"
   s.add_dependency "guard-rake"
 end
