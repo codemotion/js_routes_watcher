@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = JsRoutesWatcher::VERSION
   s.authors     = ["Dmitriy Beliaev"]
   s.email       = ["admin@cogear.ru"]
-  s.homepage    = "https://github.com/codemotion/js-routes-watcher"
+  s.homepage    = "https://github.com/codemotion/js_routes_watcher"
   s.summary     = '''Plugin for Ruby on Rails which utilise js-routes gem to work with webpacker.'''
   s.description = """Creating a Guard task to auto-regenerate app/javascript/packs/routes.js file when config/routes.rb is updated."""
   s.license     = "MIT"
