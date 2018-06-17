@@ -1,6 +1,25 @@
 # JsRoutesWatcher
 Plugin for *Ruby on Rails* which utilise [js-routes](https://github.com/railsware/js-routes) gem to work with **webpacker**.
 
+Using modern JS-frameworks such as **Vue** or **React**, you have to move all rails-generated routes to javascript.
+Then you'll be able to do this:
+```javascript
+const login_path = Routes.api_login_path()
+```
+
+[js-routes](https://github.com/railsware/js-routes) gem give you the ability to export rails routes to js file. 
+
+But how to do this automatically? There's gem you're watching on comes to play.
+
+Every time when `config/routes.rb` is updated `Guard` task will regenerate `app/javascript/packs/routes.js` file. And all you have to do – is to import it in your project js-packs.
+```javascript
+import './routes.js'
+// Then
+Routes.api_login_path()
+```
+
+
+
 ## Installation
 All you need to start using plugin is to:
 
